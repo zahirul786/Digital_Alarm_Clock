@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Noto';
+}
+
+.content {
+    display: flex;
+
+}
+
+body {
+    background: #24f8ff;
+}
+
+.wrapper {
+    position: relative;
+    left: 35%;
+    top: 30vh;
+    background: #f90f9f;
+    width: 460px;
+    height: 30vh;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.wrapper h1 {
+    font-size: 2 rem;
+}
+
+.column select {
+    background: #018f08;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    margin-right: 1px;
+    margin-bottom: 15px;
+    width: 99px;
+    height: 99px;
+}
+
+.btn {
+    background: hwb(233 4% 4%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    width: 100px;
+    height: 30px;
+}
+
+.btn2 {
+    background: hwb(233 4% 4%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+    width: 122px;
+    height: 30px;
+}
+
+.wrapper button {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px;
+    width: 72px;
+}
+
+.setAlarmButton {
+    background: #f90f9f;
+    color: aliceblue;
+}
